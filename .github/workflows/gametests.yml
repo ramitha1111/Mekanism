@@ -1,6 +1,7 @@
 name: "Run Game Tests"
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "26.3" ]
   pull_request:
